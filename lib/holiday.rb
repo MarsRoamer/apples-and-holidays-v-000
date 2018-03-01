@@ -106,11 +106,7 @@ all_supplies_in_holidays(holiday_hash)
         arr.push(key)
       end
     end
-    value
+  end
+    arr
 
 end
-
-
-
-
-
