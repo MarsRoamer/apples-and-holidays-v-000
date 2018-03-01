@@ -98,7 +98,7 @@ holiday_hash = {
   }
 }
 
-all_supplies_in_holidays(holiday_hash)
+def all_supplies_in_holidays(holiday_hash)
   arr = []
   holiday_hash.each do |season, holiday|
     holiday.each do |key, value|
