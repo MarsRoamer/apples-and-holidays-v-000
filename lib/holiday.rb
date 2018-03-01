@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |key, value|
       new_str = key.to_s
       other_str = value.join(", ")
-      puts "  #{new_str}: #{other_str}"      
+      puts "  #{new_str}: #{other_str}"
     end
   end
 end
