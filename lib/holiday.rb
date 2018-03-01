@@ -102,14 +102,15 @@ def all_holidays_with_bbq(holiday_hash)
   arr = []
   holiday_hash.each do |season, holiday|
     holiday.each do |key, value|
-
-      if value == "BBQ"
-        arr.push(key)
+      value.each do |element|
+        if element == "BBQ"
+          arr.push(key)
+        end
       end
     end
   end
     arr
-
 end
+
 
 all_holidays_with_bbq(holiday_hash)
